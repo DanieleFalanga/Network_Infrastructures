@@ -1,9 +1,6 @@
-Glossario.fdb_latexmk
-Glossario.aux
-Glossario.fls
-Glossario.log
-Glossario.synctex.gz
-MPLS/MPLS.aux
-MPLS/MPLS.fdb_latexmk
-MPLS/MPLS.fls
-MPLS/MPLS.log
+**/**/*.fls
+**/**/*.fdb_latexmk
+**/**/*.log
+**/**/*.aux
+**/**/*.synctex.gz
+

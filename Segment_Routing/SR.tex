@@ -1,0 +1,244 @@
+\documentclass[12pt]{article}
+\usepackage[top=2cm]{geometry}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{parskip}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+
+\title{\textbf{Segment Routing}}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+Fare troubleshooting in MPLS è veramente complicato, perché se guardo un pacchetto l'informazione 
+contenuta nel header trovo una label la quale è un numero, e visto cosi non mi dice nulla riguardo la storia del pacchetto
+Per ricotruire la storia del pacchetto dovrei andare a ritroso in ogni nodo. 
+
+Per questo motivo, MPLS è stato sostituito da Segment Routing nello stack dei protocolli. 
+
+
+\begin{figure*}[h]
+    \includegraphics*[scale = 0.5]{F1.png}
+    \centering
+\end{figure*}
+
+l'obiettivo di Segment Routing è quello di tenere tutti i pro di MPLS ed eliminare i contro. 
+
+\section{Introduction}
+
+Segment routing support source routing paradigm. Si assegna un "identifier"chiamati {\bf{SID}} ,che per ora è un numero,
+ad ogni nodo della rete e ad ogni entità della rete.   
+
+Ogni entità della rete può eseguire due tioologie di istruzioni:
+\begin{itemize}
+    \item Topological istructions
+    \item Service based instructions
+\end{itemize}
+
+Le istruzioni possono essere:
+\begin{itemize}
+    \item Local: può essere eseguita solo da un entità in modo locale. Un esempio sarebbe quello di inviare un pacchetto su una specifica interfaccia, solo il router proprietario dell'interfaccia
+    può inviare pacchetti su quell'interfaccia
+    \item Global: possono essere eseguite da tutti. Un esempio consiste nell'inviare un pacchetto ad un'altra entita
+    della rete, può essere fatto da tutti 
+\end{itemize}
+
+Segment Routing, a differenza di IP permette di creare un percorso nella rete ben specifico. Permette
+di creare una lista ordinata  di destinatari a cui far arrivare il pacchetto. Chiamata \textbf{Segment list}
+
+\begin{figure*}[h]
+    \includegraphics*[scale = 0.3]{F2.png}
+    \centering
+\end{figure*}
+
+Se il percorso verso una destinazione non è specificato manualmente attraverso la lista viene usato the "shortest path" perché l'unico che conosciamo. 
+Questo perché Segment Routing è una overlay architecture costruita su un underlay infrastructure che in questo caso è IP. 
+Il routing dei pacchetti e gestito dal IP control plane che utilizza come metodologia \textit{the shortest path}. 
+
+Il procedimento è il seguente: 
+\begin{enumerate}
+    \item Segment Routing crea la \textbf{segment list}
+    \item Chiede al control plane quale percorso deve seguire il segmento della segment list
+    \item Il segmento viene inviato alla destinazione chiesta dal Segment Routing
+    \item il procedimento si ripete con il segmento successivo
+\end{enumerate}
+
+Inserire immagine minuto 27
+
+Come possiamo distribuire le informazioni riguardanti gli altri SIDs della rete? In altri termini, come faccio
+a sapere dell'esistenza degli altri SIDs della rete?
+
+Questa procedura viene fatta attraverso L'OSPF protocol, quest'ultimo invia un messaggio (LSA, Link state advertisment) agli altri nodi
+della rete attraverso i suoi link contentente le seguenti info: 
+\begin{itemize}
+    \item il SID del sender
+    \item I link della rete a cui è collegato
+    \item I SIDs che conosce
+\end{itemize}  
+
+Ogni nodo della rete, ha un \textbf{topology database} il quale viene riempito con le info in arrivo dagli LSA degli altri SIDs.
+Una volta che gli altri nodi ricevono LSA di un nodo, lo inoltrano verso gli altri link, come in figura. 
+
+Inserire figura al minuto 36
+
+Questo procedimento è chiamato \textbf{Flooding}
+
+Il compito di calcolare la segment list è lasciato a un "centralized node" chiamato \textbf{SDN controller}. 
+SDN suggerisce di centralizzare l'intelligenza di rete in un componente separato, disassociando il processo di forwarding dei pacchetti (Data Plane) da quello di routing (Control Plane). 
+Calcola i percorsi che devono seguire i pacchetti in rete e installa delle SR policy all'interno dei nodi, le quali decidono dove instradare
+i pacchetti. 
+
+figura al minuti 41
+
+Attualmente Segment Routing non ha sostituito del tutto MPLS e IPv6, per far si che funzioni tutto, SR ingloba 
+le funzioni di entrambi. 
+
+\subsection{SR forwarding}
+
+\begin{figure*}[h]
+    \includegraphics*[scale = 0.3]{F5.png}
+    \centering
+\end{figure*}
+
+Quando arriva in ingresso un pacchetto, i nodi SR hanno una forawrding table che permette
+di capire cosa fare con il pacchetto. 
+Ogni nodo può fare 3 operazioni
+\begin{itemize}
+    \item PUSH: Inserisce i segmenti all'inizio della lista dei segmenti 
+    \item NEXT: Quando il pacchetto arriva al SID presente nella segment list, il nodo analizza
+    il segmento successivo per capire dove inoltrare il pacchetto senza però eliminare il segmento precedente. 
+    \item CONTINUE: Questa operazione è svolta dai nodi di "passaggio". Quelli che non sono presenti
+    nella segment list e ricevono il pacchetto. Consiste in una operazione di inoltro senza modifica della 
+    segment list. 
+\end{itemize}
+
+\begin{figure*}[h]
+    \includegraphics*[scale = 0.3]{F6.png}
+    \centering
+    \caption{NEXT operation}
+\end{figure*}
+
+\begin{figure*}[h]
+    \includegraphics*[scale = 0.3]{F7.png}
+    \centering
+    \caption{CONTINUE operation}
+\end{figure*}
+
+
+\section{Segment Routing Policy}
+
+Sono istruzioni logiche che devono gli ingress node devono eseguire nei confronti di un pacchetto in arrivo. Sono implementate
+negli \textit(edge nodes)
+
+Gli edge nodes hanno un database chiamato \textbf{SR policy database (SRPDB)} che contiene tutte le policy che devono essere applicate
+ai rispettivi pacchetti in arrivo. 
+
+Ogni \textit(tupla) del database ha una struttura di questo tipo: 
+
+\[<i,e,color>\]
+
+Dove \(i\) sta per ingress, \(e\) per egress e \(color\) la tipologia di policy da applicare al pacchetto.  
+
+\begin{figure*}[h]
+    \includegraphics*[scale = 0.5]{F8.png}
+    \centering
+\end{figure*}
+
+Quando un pacchetto arriva al nodo \(i\) avviene questo: 
+\begin{enumerate}
+    \item Il classifier decide quale policy è meglio per il pacchetto
+    \item l'SRPDB chiede al Segment List Database (SLDB) quale path tra Quelli
+    del colore scelto dal classifier sia meglio per il pacchetto
+    \item SRPDB scrive la tupla nel suo database
+\end{enumerate}  
+
+\subsection{Bindig SID}
+
+\begin{figure*}[h]
+    \includegraphics*[scale = 0.5]{F9.png}
+    \centering
+\end{figure*}
+
+Ogni tupla del SRPDB può essere assegnata ad uno specifico SID. Quando si riceve in ingresso
+una segment list, dove all'interno di essa di essa c'è un SID \textbf{(B)}, il quale è assegnato ad una policy del database, 
+Il segmento corrispondente, viene sostituito con la segment list associata alla policy di \textbf{B}. 
+Il \textit{bindng SID} è utile perché permette di ridurre la dimensione della segment list. 
+
+\section{SRv6 and Segment Routing extension header}
+
+Come detto prima, Segment Routing è implementato in overlay ad MPLS e IPv6, per favorire
+la transizione. 
+
+\begin{figure*}[h]
+    \includegraphics*[scale = 0.5]{F10.png}
+    \centering
+\end{figure*}
+
+Per implementare SR in IPv6, viene aggiunto un header SRH (Segment Routing Header) gestito come 
+se fosse un extension header di IPv6. 
+
+\begin{figure*}[h]
+    \includegraphics*[scale = 0.5]{F11.png}
+    \caption[short]{SRv6 Extension Header}
+    \centering
+\end{figure*}
+
+Il campo <seg left> è un puntatore allo stack dei segmenti.
+
+L'extension header di SG tratta i SID come indirizzi IPv6 incrementando di gran lunga la dimensione del header.
+In MPLS invece, le label hanno di dimensione 20 bit. 
+
+\newpage
+Ci sono due modi per aggiungere un extension header ad un 
+pacchetto proveniente da un costumer. Dipende da quale protocollo IP viene usato dal costumer 
+\begin{itemize}
+    \item Se IPv6: l'extension header viene inserito in coda e trattato come se fosse un extension header normale. 
+    \item Se IPv4: il pacchetto viene incapsulato  
+\end{itemize}
+
+
+\begin{figure*}[h]
+    \includegraphics*[scale = 0.5]{F12.png}
+    \centering
+\end{figure*}
+
+\subsection{Local Sid Table}
+
+Ogni nodo Srv6 mantiene localmente una tabella locale dei SID, la quale per ognuno di essi, è associata una 
+funzione, chiamata \textbf{end behavior} 
+
+\begin{figure*}[h]
+    \includegraphics*[scale = 0.5]{F13.png}
+    \centering
+\end{figure*}
+
+Le funzioni possono essere di due tipologie:
+\begin{itemize}
+    \item \textbf{End}: È una funzione associata quando il SID di destinazione si trova nella MyLocalSID Table
+    \item \textbf{End.X} è una funzione di Layer 3
+\end{itemize}
+
+
+\newpage
+\section{Network Programming}
+
+Grazie alle caratteristice spiegante precedentemente è possibile creare una programmazione
+di rete, per cui ad ogni SID è possibile associare una funzione corrispondente. 
+
+\begin{figure*}[h]
+    \includegraphics*[scale = 0.5]{F14.png}
+    \centering
+\end{figure*}
+
+In figura è rappresentata la struttura di un indirizzo IPv6 utilizzato in particolare nel protocollo, 
+SRv6. I primi 64 bits dell'inidirizzo vengono uasti come localizzatore del SID. I campi 
+\textit{function} e \textit{argument} sono campi usati dalla MyLocalSID Table del \textit{locator} per 
+inidirizzare il pacchetto verso il nodo che performerà la funzione corrispondente. 
+
+
+
+\end{document}
