@@ -1,8 +1,0 @@
-ifup eth0
-ifup eth1
-ifup eth2
-ifup eth3
-
-ip route add 151.100.160.0/24 via 10.0.0.9
-ip route add 151.100.164.0/22 via 10.0.0.10
-ip route add default via 10.0.0.3

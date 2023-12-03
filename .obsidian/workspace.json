@@ -1,0 +1,173 @@
+{
+  "main": {
+    "id": "018cfab41bb71d94",
+    "type": "split",
+    "children": [
+      {
+        "id": "135e515df16c4056",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b0ecd7b33d848c21",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6149373a674f7cab",
+    "type": "split",
+    "children": [
+      {
+        "id": "ab92d2aae77ff9f7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "275b21e99690f65b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3c068f2239545013",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e0b74459d9f0a4f3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1334a6a9bb888337",
+    "type": "split",
+    "children": [
+      {
+        "id": "7d49cab7636f19a6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "222294f3cb735096",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7ea6dec66ef0dc03",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c07428a8e708337a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "00a8b2ac6b4c2d03",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "92c43a9781524a0c",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "275b21e99690f65b",
+  "lastOpenFiles": [
+    "hw01_1918515.zip",
+    "hw01_1918515(1).zip",
+    "Polverini/Intro_Net/images",
+    "Polverini/Intro_Net/XDLS.tex",
+    "Polverini/Intro_Net/XDLS.synctex.gz",
+    "Polverini/Intro_Net/XDLS.pdf",
+    "Polverini/Intro_Net/XDLS.log",
+    "Polverini/Intro_Net/XDLS.fls",
+    "Polverini/Intro_Net/XDLS.fdb_latexmk",
+    "Polverini/Intro_Net/XDLS.aux",
+    "Polverini/Intro_Net",
+    "Polverini/MPLS/images/Example9.png",
+    "Polverini/MPLS/images/Example8.png",
+    "Polverini/MPLS/images/Example7.png",
+    "Polverini/MPLS/images/Example5.png",
+    "Polverini/MPLS/images/Example4.png",
+    "Polverini/MPLS/images/Example3.png",
+    "Polverini/MPLS/images/Example2.jpeg",
+    "Polverini/MPLS/images/Example1.png",
+    "Polverini/MPLS/images/ConnectionOriented.png",
+    "Polverini/Segment_Routing/images/F9.png"
+  ]
+}
