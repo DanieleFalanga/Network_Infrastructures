@@ -1,3 +1,6 @@
 {
-  "accentColor": ""
+  "accentColor": "",
+  "textFontFamily": "Source Code Pro",
+  "monospaceFontFamily": "Source Code Pro",
+  "interfaceFontFamily": "Roboto Condensed"
 }
