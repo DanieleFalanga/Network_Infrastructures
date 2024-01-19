@@ -162,7 +162,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -181,13 +181,13 @@
   },
   "active": "c04d176bc967e8fd",
   "lastOpenFiles": [
+    "Glossary Network Infrastructures.md",
+    "1. Infrastructures Functional Areas.md",
     "Pasted image 20240119102032.png",
     "Polverini/Segment_Routing/SR.pdf",
-    "1. Infrastructures Functional Areas.md",
     "Cuomo",
     "Polverini/MPLS/MPLS.pdf",
     "README.md",
-    "Glossary Network Infrastructures.md",
     "Glossario.pdf",
     "hw01_1918515.zip",
     "hw01_1918515(1).zip",
@@ -203,7 +203,6 @@
     "Polverini/MPLS/images/Example3.png",
     "Polverini/MPLS/images/Example2.jpeg",
     "Polverini/MPLS/images/Example1.png",
-    "Polverini/MPLS/images/ConnectionOriented.png",
-    "Polverini/Segment_Routing/images/F9.png"
+    "Polverini/MPLS/images/ConnectionOriented.png"
   ]
 }
