@@ -11,11 +11,38 @@
             "id": "b0ecd7b33d848c21",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "pdf",
+              "state": {
+                "file": "Polverini/Segment_Routing/SR.pdf"
+              }
+            }
+          },
+          {
+            "id": "c04d176bc967e8fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Infrastructures Functional Areas.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9d29bafb73ac1c1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Glossary Network Infrastructures.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -65,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "1334a6a9bb888337",
@@ -81,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "1. Infrastructures Functional Areas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "1. Infrastructures Functional Areas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +148,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "1. Infrastructures Functional Areas.md"
+              }
             }
           },
           {
@@ -134,7 +166,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,19 +179,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "275b21e99690f65b",
+  "active": "c04d176bc967e8fd",
   "lastOpenFiles": [
+    "Pasted image 20240119102032.png",
+    "Polverini/Segment_Routing/SR.pdf",
+    "1. Infrastructures Functional Areas.md",
+    "Cuomo",
+    "Polverini/MPLS/MPLS.pdf",
+    "README.md",
+    "Glossary Network Infrastructures.md",
+    "Glossario.pdf",
     "hw01_1918515.zip",
     "hw01_1918515(1).zip",
     "Polverini/Intro_Net/images",
     "Polverini/Intro_Net/XDLS.tex",
     "Polverini/Intro_Net/XDLS.synctex.gz",
     "Polverini/Intro_Net/XDLS.pdf",
-    "Polverini/Intro_Net/XDLS.log",
-    "Polverini/Intro_Net/XDLS.fls",
-    "Polverini/Intro_Net/XDLS.fdb_latexmk",
-    "Polverini/Intro_Net/XDLS.aux",
-    "Polverini/Intro_Net",
     "Polverini/MPLS/images/Example9.png",
     "Polverini/MPLS/images/Example8.png",
     "Polverini/MPLS/images/Example7.png",
