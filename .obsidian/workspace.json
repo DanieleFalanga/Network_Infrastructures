@@ -8,41 +8,34 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b0ecd7b33d848c21",
+            "id": "c04d176bc967e8fd",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Polverini/Segment_Routing/SR.pdf"
+                "file": "Cuomo/slides/Access Neworks/01_Infrastructures_Functional_Areas.pdf"
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "7eb45e31f37bdc3e",
+        "type": "tabs",
+        "children": [
           {
-            "id": "c04d176bc967e8fd",
+            "id": "08ddc34c44d91fac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Infrastructures Functional Areas.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9d29bafb73ac1c1b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Glossary Network Infrastructures.md",
+                "file": "Cuomo/1. Infrastructures Functional Areas.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Infrastructures Functional Areas.md",
+                "file": "Cuomo/slides/Access Neworks/01_Infrastructures_Functional_Areas.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Infrastructures Functional Areas.md",
+                "file": "Cuomo/slides/Access Neworks/01_Infrastructures_Functional_Areas.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Infrastructures Functional Areas.md"
+                "file": "Cuomo/slides/Access Neworks/01_Infrastructures_Functional_Areas.pdf"
               }
             }
           },
@@ -181,20 +174,20 @@
   },
   "active": "c04d176bc967e8fd",
   "lastOpenFiles": [
+    "Cuomo/1. Infrastructures Functional Areas.md",
+    "Cuomo/slides/Access Neworks/01_Infrastructures_Functional_Areas.pdf",
+    "images",
+    "Cuomo/slides/Access Neworks/04_Wireless_infrastructures.pdf",
+    "Cuomo/slides/Access Neworks/03_Infrastructures_PON.pdf",
+    "Cuomo/slides/Access Neworks/02_XDSL_Techcologies.pdf",
+    "Cuomo/slides/Access Neworks",
+    "Cuomo/slides",
+    "Cuomo/Access Neworks-20240120T103214Z-001/Access Neworks/04_Wireless_infrastructures.pdf",
+    "Cuomo/Access Neworks-20240120T103214Z-001/Access Neworks/03_Infrastructures_PON.pdf",
+    "Cuomo/Access Neworks-20240120T103214Z-001/Access Neworks/02_XDSL_Techcologies.pdf",
     "Glossary Network Infrastructures.md",
-    "1. Infrastructures Functional Areas.md",
-    "Pasted image 20240119102032.png",
-    "Polverini/Segment_Routing/SR.pdf",
-    "Cuomo",
-    "Polverini/MPLS/MPLS.pdf",
+    "images/Pasted image 20240119102032.png",
     "README.md",
-    "Glossario.pdf",
-    "hw01_1918515.zip",
-    "hw01_1918515(1).zip",
-    "Polverini/Intro_Net/images",
-    "Polverini/Intro_Net/XDLS.tex",
-    "Polverini/Intro_Net/XDLS.synctex.gz",
-    "Polverini/Intro_Net/XDLS.pdf",
     "Polverini/MPLS/images/Example9.png",
     "Polverini/MPLS/images/Example8.png",
     "Polverini/MPLS/images/Example7.png",
