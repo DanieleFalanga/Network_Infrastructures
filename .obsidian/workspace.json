@@ -6,6 +6,7 @@
       {
         "id": "54eb745c24be3ddc",
         "type": "tabs",
+        "dimension": 54.2225201072386,
         "children": [
           {
             "id": "db3c59d4e516bbb3",
@@ -22,6 +23,7 @@
       {
         "id": "913a5df017c5a934",
         "type": "tabs",
+        "dimension": 45.7774798927614,
         "children": [
           {
             "id": "95841c1aeeb88869",
@@ -102,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cuomo/slides/Access Neworks/02_XDSL_Techcologies.pdf",
+                "file": "Cuomo/2. xDSL Technologies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cuomo/slides/Access Neworks/02_XDSL_Techcologies.pdf",
+                "file": "Cuomo/2. xDSL Technologies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cuomo/slides/Access Neworks/02_XDSL_Techcologies.pdf"
+                "file": "Cuomo/2. xDSL Technologies.md"
               }
             }
           },
@@ -172,11 +174,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "db3c59d4e516bbb3",
+  "active": "95841c1aeeb88869",
   "lastOpenFiles": [
+    "Cuomo/slides/Access Neworks/02_XDSL_Techcologies.pdf",
     "Cuomo/2. xDSL Technologies.md",
     "Pasted image 20240120123445.png",
-    "Cuomo/slides/Access Neworks/02_XDSL_Techcologies.pdf",
     "Cuomo/1. Infrastructures Functional Areas.md",
     "Cuomo/slides/Access Neworks/01_Infrastructures_Functional_Areas.pdf",
     "images",
