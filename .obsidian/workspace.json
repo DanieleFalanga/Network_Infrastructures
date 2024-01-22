@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cuomo/2. xDSL Technologies.md",
+                "file": "Cuomo/slides/Access Neworks/02_XDSL_Techcologies.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cuomo/2. xDSL Technologies.md",
+                "file": "Cuomo/slides/Access Neworks/02_XDSL_Techcologies.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cuomo/2. xDSL Technologies.md"
+                "file": "Cuomo/slides/Access Neworks/02_XDSL_Techcologies.pdf"
               }
             }
           },
@@ -174,11 +174,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "95841c1aeeb88869",
+  "active": "db3c59d4e516bbb3",
   "lastOpenFiles": [
-    "Cuomo/slides/Access Neworks/02_XDSL_Techcologies.pdf",
     "Cuomo/2. xDSL Technologies.md",
-    "Pasted image 20240120123445.png",
+    "Cuomo/slides/Access Neworks/02_XDSL_Techcologies.pdf",
+    "images/Pasted image 20240122095925.png",
+    "images/Pasted image 20240120123445.png",
     "Cuomo/1. Infrastructures Functional Areas.md",
     "Cuomo/slides/Access Neworks/01_Infrastructures_Functional_Areas.pdf",
     "images",
@@ -198,7 +199,6 @@
     "Polverini/MPLS/images/Example5.png",
     "Polverini/MPLS/images/Example4.png",
     "Polverini/MPLS/images/Example3.png",
-    "Polverini/MPLS/images/Example2.jpeg",
-    "Polverini/MPLS/images/Example1.png"
+    "Polverini/MPLS/images/Example2.jpeg"
   ]
 }
