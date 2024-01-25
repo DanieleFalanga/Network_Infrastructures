@@ -16,8 +16,21 @@
                 "file": "Cuomo/slides/Access Neworks/03_Infrastructures_PON.pdf"
               }
             }
+          },
+          {
+            "id": "044bf8f0c96d237f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cuomo/4. Wireless Infrastructures.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -67,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "1334a6a9bb888337",
@@ -83,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cuomo/slides/Access Neworks/03_Infrastructures_PON.pdf",
+                "file": "Cuomo/4. Wireless Infrastructures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cuomo/slides/Access Neworks/03_Infrastructures_PON.pdf",
+                "file": "Cuomo/4. Wireless Infrastructures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cuomo/slides/Access Neworks/03_Infrastructures_PON.pdf"
+                "file": "Cuomo/4. Wireless Infrastructures.md"
               }
             }
           },
@@ -153,10 +166,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6cf52ecdbb689953",
+  "active": "044bf8f0c96d237f",
   "lastOpenFiles": [
-    "Cuomo/slides/Access Neworks/04_Wireless_infrastructures.pdf",
+    "Pasted image 20240125111343.png",
     "Cuomo/slides/Access Neworks/03_Infrastructures_PON.pdf",
+    "Cuomo/4. Wireless Infrastructures.md",
+    "Cuomo/slides/Access Neworks/04_Wireless_infrastructures.pdf",
     "Glossary Network Infrastructures.md",
     "images/Pasted image 20240122120039.png",
     "images/Pasted image 20240122120306.png",
