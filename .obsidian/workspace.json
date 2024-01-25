@@ -80,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "1334a6a9bb888337",
@@ -168,7 +169,8 @@
   },
   "active": "044bf8f0c96d237f",
   "lastOpenFiles": [
-    "Pasted image 20240125111343.png",
+    "images/Pasted image 20240125115126.png",
+    "images/Pasted image 20240125111343.png",
     "Cuomo/slides/Access Neworks/03_Infrastructures_PON.pdf",
     "Cuomo/4. Wireless Infrastructures.md",
     "Cuomo/slides/Access Neworks/04_Wireless_infrastructures.pdf",
@@ -184,7 +186,6 @@
     "images/Pasted image 20240122101648.png",
     "images/Pasted image 20240122101532.png",
     "images/Pasted image 20240122095925.png",
-    "images/Pasted image 20240120123445.png",
     "Cuomo/1. Infrastructures Functional Areas.md",
     "Cuomo/slides/Access Neworks/01_Infrastructures_Functional_Areas.pdf",
     "images",
