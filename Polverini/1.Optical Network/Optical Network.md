@@ -94,3 +94,6 @@ All of this services requires a control management interface between the optical
 
 Is useful to subdivide the optical layer into several sublayers:
 
+- Optical Channel layer (OCh): Takes care of end to end routing of the lightpaths
+- Optical multiplex Section Layer (OMS): Each link between OLTs ot OADMs represents an optical multiplex section carrying multiple wavelenghts. 
+- Optical transimission Sections layer (OTS): L
