@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "be1192be4f2c3c56",
+        "id": "7ed1083ec04af153",
         "type": "tabs",
         "children": [
           {
-            "id": "b19154aaf93aca64",
+            "id": "c08f69e9b516afc3",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -152,8 +152,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b19154aaf93aca64",
+  "active": "c08f69e9b516afc3",
   "lastOpenFiles": [
+    "Polverini/4.Segment_Routing/SR.pdf",
+    "Polverini/2.MPLS/MPLS.pdf",
     "images/Pasted image 20240126122313.png",
     "images/Pasted image 20240126122235.png",
     "images/Pasted image 20240126101152.png",
@@ -166,7 +168,6 @@
     "images/Pasted image 20240125154036.png",
     "images/Pasted image 20240125153538.png",
     "images/Pasted image 20240125153128.png",
-    "images/Pasted image 20240125152859.png",
     "Cuomo/slides/Access Neworks/03_Infrastructures_PON.pdf",
     "Cuomo/slides/Access Neworks/04_Wireless_infrastructures.pdf",
     "Glossary Network Infrastructures.md",
@@ -179,7 +180,6 @@
     "Cuomo/slides",
     "Cuomo/Access Neworks-20240120T103214Z-001/Access Neworks/04_Wireless_infrastructures.pdf",
     "Cuomo/Access Neworks-20240120T103214Z-001/Access Neworks/03_Infrastructures_PON.pdf",
-    "Cuomo/Access Neworks-20240120T103214Z-001/Access Neworks/02_XDSL_Techcologies.pdf",
     "README.md"
   ]
 }
