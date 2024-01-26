@@ -45,4 +45,15 @@ It is constitute the bulk of the cost of an optical network.
 ### OADM (Optical Add/Drop Multiplexers)
 
 
-![[Pasted image 20240126100639.png]]
+![[Pasted image 20240126100639.png | 400]]
+
+Optical add/drop multiplexers (OADMs) provide a cost-effective means for handling pass through traffic in both metro and long-haul networks.
+
+### OXC (Optical Crossconnects)
+
+![[Pasted image 20240126101152.png]]
+
+In general, OXCs enables reconfigurable optical networks, where lightpaths can be set up and taken down as needed. 
+
+It provides several key functions in a large network: 
+- 
