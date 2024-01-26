@@ -60,10 +60,21 @@ It provides several key functions in a large network:
 - **Protection:** Detect failure and rapidly re-route the failed lightpath
 - **Wavelength conversion:** Change the wavelength of an incoming signal before transmitting it
 
-### Electronics in Optical Networks
+## Electronics in Optical Networks
 
 Electronics plays a crucial role in performing the intelligent control and management functions. It is required at the **edge of the network** in order to adapt the signal entering in the optical domain and in the **core network** in order to **regenerate** the signal and perform wavelength conversion. 
 
-There are 
+There are three types of eletronic regeneration: 
+▶ 1R: regeneration (can be seen as an Optical Amplifier) 
+	PRO: supports analog signals 
+	CONS: poor performance 
+▶ 2R - regeneration with reshaping 
+	PRO: offers transparency to bit rates 
+	CONS: limits the number of regeneration steps allowed due to the accumulated jitter 
+▶ 3R - regeneration with retiming and reshaping 
+	PRO: produces a “fresh” copy of the signal 
+	CONS: it eliminates transparency to bit rates and the framing protocols
+
+# Control and Management
 
 
