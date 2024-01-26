@@ -7,8 +7,8 @@ In the *second generations* of optical network, called WDM-PON, this functions a
 
 There are two ways to increase the transmission capacity on a fiber:
 
-1) Time division Multiplexing (TDM): Assign time slots to users data packet. This type of technology is used mainly in first generation of Optical Network. 
-2) Wavelength Division Multiplexing (WDM): Divide the traffic in wavelengths, each users has yours. This technique allows the transmission of data simultaneously.
+1) **Time division Multiplexing (TDM):** Assign time slots to users data packet. This type of technology is used mainly in first generation of Optical Network. 
+2) **Wavelength Division Multiplexing (WDM):** Divide the traffic in wavelengths, each users has yours. This technique allows the transmission of data simultaneously.
 
 ![[Pasted image 20240126094356.png]]
 
@@ -94,6 +94,21 @@ All of this services requires a control management interface between the optical
 
 Is useful to subdivide the optical layer into several sublayers:
 
-- Optical Channel layer (OCh): Takes care of end to end routing of the lightpaths
-- Optical multiplex Section Layer (OMS): Each link between OLTs ot OADMs represents an optical multiplex section carrying multiple wavelenghts. 
-- Optical transimission Sections layer (OTS): L
+![[Pasted image 20240126122235.png]]
+- **Optical Channel layer (OCh):** Takes care of end to end routing of the lightpaths
+- **Optical multiplex Section Layer (OMS):** Each link between OLTs ot OADMs represents an optical multiplex section carrying multiple wavelenghts. 
+- **Optical transimission Sections layer (OTS):** Link between two optical amplifier stages
+--- 
+- **Optical channel transport unit (OTU):** 
+	- provide identification of the optical connection
+	- monitor bit error rate (BER)
+	- carry alarms indicators to signal failures
+	- provide communication channel between the end points of the optical connection
+- **Optical channel data unit (ODU):** 
+	- as OTU but at higer layer
+	- includes the Optical channel Payload Unit (OPU) sublayer that adapts client signal to the OTN frames
+
+Each of this component adds overhead to the packet
+
+![[Pasted image 20240126122313.png]]
+

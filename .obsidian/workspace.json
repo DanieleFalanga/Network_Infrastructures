@@ -4,27 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "54eb745c24be3ddc",
+        "id": "20e635cbaa38a2f1",
         "type": "tabs",
         "children": [
           {
-            "id": "db3c59d4e516bbb3",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Polverini/slides/Optical_Networks_23_24.pdf"
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "fec98866ce523103",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "89e23d592c200e9a",
+            "id": "06fb4039d26e98c7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -85,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "1334a6a9bb888337",
@@ -102,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Polverini/slides/Optical_Networks_23_24.pdf",
+                "file": "Polverini/1.Optical Network/Optical Network.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Polverini/slides/Optical_Networks_23_24.pdf",
+                "file": "Polverini/1.Optical Network/Optical Network.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Polverini/slides/Optical_Networks_23_24.pdf"
+                "file": "Polverini/1.Optical Network/Optical Network.md"
               }
             }
           },
@@ -172,9 +155,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "db3c59d4e516bbb3",
+  "active": "06fb4039d26e98c7",
   "lastOpenFiles": [
     "Polverini/1.Optical Network/Optical Network.md",
+    "images/Pasted image 20240126122313.png",
+    "images/Pasted image 20240126122235.png",
     "Polverini/slides/Optical_Networks_23_24.pdf",
     "images/Pasted image 20240126101152.png",
     "images/Pasted image 20240126100639.png",
@@ -190,8 +175,6 @@
     "images/Pasted image 20240125154036.png",
     "images/Pasted image 20240125153538.png",
     "images/Pasted image 20240125153128.png",
-    "images/Pasted image 20240125152859.png",
-    "images/Pasted image 20240125133621.png",
     "Cuomo/4. Wireless Infrastructures.md",
     "Cuomo/slides/Access Neworks/02_XDSL_Techcologies.pdf",
     "Cuomo/1. Infrastructures Functional Areas.md",
