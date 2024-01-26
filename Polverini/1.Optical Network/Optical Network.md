@@ -77,4 +77,20 @@ There are three types of eletronic regeneration:
 
 # Control and Management
 
+## Management Framework
+
+Most functions of the network are implemented in a centralized manner by a hierarchy of management systems. 
+
+Due to latency, some management functions are performed in a decentralized manner like: responding to failures and setting up/taking down connetions)
+
+During lightpath setup client layers can specify to the optical layer the following services: 
+- The endpoints to interconnect
+- The amount of bandwidth that is required 
+- It can specify if an adaption function is needed
+- the BER 
+- The level of protection against failure
+
+All of this services requires a control management interface between the optical layer and the client layer.
+
+Is useful to subdivide the optical layer into several sublayers:
 
