@@ -56,4 +56,14 @@ Optical add/drop multiplexers (OADMs) provide a cost-effective means for handlin
 In general, OXCs enables reconfigurable optical networks, where lightpaths can be set up and taken down as needed. 
 
 It provides several key functions in a large network: 
-- 
+- **Service provisioning:** provisioning of the lightpaths in a large network in automated manner. It is able to reconfigure lightpaths to respond to traffic change. 
+- **Protection:** Detect failure and rapidly re-route the failed lightpath
+- **Wavelength conversion:** Change the wavelength of an incoming signal before transmitting it
+
+### Electronics in Optical Networks
+
+Electronics plays a crucial role in performing the intelligent control and management functions. It is required at the **edge of the network** in order to adapt the signal entering in the optical domain and in the **core network** in order to **regenerate** the signal and perform wavelength conversion. 
+
+There are 
+
+
