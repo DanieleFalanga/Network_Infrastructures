@@ -30,8 +30,19 @@ Another important characteristics is that wavelength can be converted from one w
 Optical line terminals are used at the end of a point-to-point link to multiplex and demultiplex wavelenghts. 
 
 It is composed by three functional elements:
-- Transponder
+- Transponder (O/E/O): 
 - Wavelength multiplexers 
 - Optical amplifiers
 
+Transponder adapts the signal coming from a client of the optical network and vice versa. 
+1) Convert the signal into a wavelength that is suited in the optical network. 
+2) Adds OTN overhead
+3) Monitors the bit error rate
+It is constitute the bulk of the cost of an optical network. 
 
+![[Pasted image 20240126095614.png]]
+
+### OADM (Optical Add/Drop Multiplexers)
+
+
+![[Pasted image 20240126100639.png]]
