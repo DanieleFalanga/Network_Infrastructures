@@ -27,7 +27,7 @@ Another important characteristics is that wavelength can be converted from one w
 
 ### OLT (Optical Line Terminals)
 
-Optical line terminals are used at the end of a point-to-point link to multiplex and demultiplex wavelenghts. 
+Optical line terminals are used at the end of a point-to-point link to multiplex and demultiplex wavelengths. 
 
 It is composed by three functional elements:
 - Transponder (O/E/O): 
