@@ -1,0 +1,205 @@
+{
+  "main": {
+    "id": "018cfab41bb71d94",
+    "type": "split",
+    "children": [
+      {
+        "id": "54eb745c24be3ddc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "db3c59d4e516bbb3",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Polverini/slides/Optical_Networks_23_24.pdf"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "fec98866ce523103",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "89e23d592c200e9a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Polverini/1.Optical Network/Optical Network.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6149373a674f7cab",
+    "type": "split",
+    "children": [
+      {
+        "id": "ab92d2aae77ff9f7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "275b21e99690f65b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3c068f2239545013",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e0b74459d9f0a4f3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "1334a6a9bb888337",
+    "type": "split",
+    "children": [
+      {
+        "id": "7d49cab7636f19a6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "222294f3cb735096",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Polverini/1.Optical Network/Optical Network.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7ea6dec66ef0dc03",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Polverini/1.Optical Network/Optical Network.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c07428a8e708337a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "00a8b2ac6b4c2d03",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Polverini/1.Optical Network/Optical Network.md"
+              }
+            }
+          },
+          {
+            "id": "92c43a9781524a0c",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "89e23d592c200e9a",
+  "lastOpenFiles": [
+    "Polverini/slides/Optical_Networks_23_24.pdf",
+    "Polverini/1.Optical Network/Optical Network.md",
+    "Polverini/4.Segment_Routing/SR.pdf",
+    "Polverini/1.Optical Network",
+    "conflict-files-obsidian-git.md",
+    "Polverini/Optical_Networks_23_24.pdf",
+    "Polverini/slides",
+    "Cuomo/2. xDSL Technologies.md",
+    "images/Pasted image 20240125154036.png",
+    "images/Pasted image 20240125153538.png",
+    "images/Pasted image 20240125153128.png",
+    "images/Pasted image 20240125152859.png",
+    "images/Pasted image 20240125133621.png",
+    "images/Pasted image 20240125132650.png",
+    "images/Pasted image 20240125115126.png",
+    "images/Pasted image 20240125111343.png",
+    "images/Pasted image 20240122124625.png",
+    "images/Pasted image 20240122120306.png",
+    "Cuomo/4. Wireless Infrastructures.md",
+    "Cuomo/slides/Access Neworks/02_XDSL_Techcologies.pdf",
+    "Cuomo/1. Infrastructures Functional Areas.md",
+    "Cuomo/slides/Access Neworks/01_Infrastructures_Functional_Areas.pdf",
+    "images",
+    "Cuomo/slides/Access Neworks/04_Wireless_infrastructures.pdf",
+    "Cuomo/slides/Access Neworks/03_Infrastructures_PON.pdf",
+    "Glossary Network Infrastructures.md",
+    "README.md"
+  ]
+}
