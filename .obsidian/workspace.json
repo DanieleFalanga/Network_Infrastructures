@@ -87,8 +87,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "1334a6a9bb888337",
@@ -104,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cuomo/slides/Access Neworks/02_XDSL_Techcologies.pdf",
+                "file": "Cuomo/2. xDSL Technologies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cuomo/slides/Access Neworks/02_XDSL_Techcologies.pdf",
+                "file": "Cuomo/2. xDSL Technologies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cuomo/slides/Access Neworks/02_XDSL_Techcologies.pdf"
+                "file": "Cuomo/2. xDSL Technologies.md"
               }
             }
           },
@@ -174,11 +173,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "db3c59d4e516bbb3",
+  "active": "95841c1aeeb88869",
   "lastOpenFiles": [
+    "Cuomo/slides/Access Neworks/02_XDSL_Techcologies.pdf",
     "Cuomo/2. xDSL Technologies.md",
     "Pasted image 20240122124625.png",
-    "Cuomo/slides/Access Neworks/02_XDSL_Techcologies.pdf",
     "Pasted image 20240122120306.png",
     "Pasted image 20240122120039.png",
     "Pasted image 20240122113734.png",
