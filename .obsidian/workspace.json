@@ -4,38 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "1ceb078b12de070d",
+        "id": "be1192be4f2c3c56",
         "type": "tabs",
         "children": [
           {
-            "id": "5059f5c5e23191b9",
+            "id": "b19154aaf93aca64",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "pdf",
               "state": {
-                "file": "Untitled.canvas",
-                "viewState": {
-                  "x": 169.30702422716354,
-                  "y": -76.08754603337891,
-                  "zoom": -0.5
-                }
-              }
-            }
-          },
-          {
-            "id": "a2e74f3a7f391b49",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Polverini/1.Optical Network/Optical Network.md",
-                "mode": "preview",
-                "source": false
+                "file": "Polverini/2.MPLS/MPLS.pdf"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -85,7 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "1334a6a9bb888337",
@@ -101,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Polverini/1.Optical Network/Optical Network.md",
+                "file": "Polverini/2.MPLS/MPLS.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Polverini/1.Optical Network/Optical Network.md",
+                "file": "Polverini/2.MPLS/MPLS.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Polverini/1.Optical Network/Optical Network.md"
+                "file": "Polverini/2.MPLS/MPLS.pdf"
               }
             }
           },
@@ -158,8 +140,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,35 +152,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a2e74f3a7f391b49",
+  "active": "b19154aaf93aca64",
   "lastOpenFiles": [
-    "Untitled.canvas",
-    "Polverini/1.Optical Network/Optical Network.md",
-    "Cuomo/2. xDSL Technologies.md",
     "images/Pasted image 20240126122313.png",
     "images/Pasted image 20240126122235.png",
-    "Polverini/slides/Optical_Networks_23_24.pdf",
     "images/Pasted image 20240126101152.png",
     "images/Pasted image 20240126100639.png",
     "images/Pasted image 20240126095614.png",
     "images/Pasted image 20240126094756.png",
     "images/Pasted image 20240126094356.png",
-    "Polverini/4.Segment_Routing/SR.pdf",
-    "Polverini/1.Optical Network",
-    "conflict-files-obsidian-git.md",
-    "Polverini/Optical_Networks_23_24.pdf",
-    "Polverini/slides",
+    "Untitled.canvas",
+    "Cuomo/4. Wireless Infrastructures.md",
     "images/Pasted image 20240125154036.png",
     "images/Pasted image 20240125153538.png",
     "images/Pasted image 20240125153128.png",
-    "Cuomo/4. Wireless Infrastructures.md",
+    "images/Pasted image 20240125152859.png",
+    "Cuomo/slides/Access Neworks/03_Infrastructures_PON.pdf",
+    "Cuomo/slides/Access Neworks/04_Wireless_infrastructures.pdf",
+    "Glossary Network Infrastructures.md",
+    "Cuomo/2. xDSL Technologies.md",
     "Cuomo/slides/Access Neworks/02_XDSL_Techcologies.pdf",
     "Cuomo/1. Infrastructures Functional Areas.md",
     "Cuomo/slides/Access Neworks/01_Infrastructures_Functional_Areas.pdf",
     "images",
-    "Cuomo/slides/Access Neworks/04_Wireless_infrastructures.pdf",
-    "Cuomo/slides/Access Neworks/03_Infrastructures_PON.pdf",
-    "Glossary Network Infrastructures.md",
+    "Cuomo/slides/Access Neworks",
+    "Cuomo/slides",
+    "Cuomo/Access Neworks-20240120T103214Z-001/Access Neworks/04_Wireless_infrastructures.pdf",
+    "Cuomo/Access Neworks-20240120T103214Z-001/Access Neworks/03_Infrastructures_PON.pdf",
+    "Cuomo/Access Neworks-20240120T103214Z-001/Access Neworks/02_XDSL_Techcologies.pdf",
     "README.md"
   ]
 }
