@@ -11,14 +11,9 @@
             "id": "c08f69e9b516afc3",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "pdf",
               "state": {
-                "file": "Untitled.canvas",
-                "viewState": {
-                  "x": 70.5,
-                  "y": -84,
-                  "zoom": 0
-                }
+                "file": "Polverini/2.MPLS/MPLS.pdf"
               }
             }
           }
@@ -88,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "Polverini/2.MPLS/MPLS.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "Polverini/2.MPLS/MPLS.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.canvas"
+                "file": "Polverini/2.MPLS/MPLS.pdf"
               }
             }
           },
@@ -145,7 +140,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,8 +153,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c08f69e9b516afc3",
+  "active": "7ea6dec66ef0dc03",
   "lastOpenFiles": [
+    "Untitled.canvas",
     "Glossary Network Infrastructures.md",
     "Polverini/2.MPLS/MPLS.pdf",
     "Polverini/4.Segment_Routing/SR.pdf",
@@ -169,7 +166,6 @@
     "images/Pasted image 20240126095614.png",
     "images/Pasted image 20240126094756.png",
     "images/Pasted image 20240126094356.png",
-    "Untitled.canvas",
     "Cuomo/4. Wireless Infrastructures.md",
     "images/Pasted image 20240125154036.png",
     "images/Pasted image 20240125153538.png",
