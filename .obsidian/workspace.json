@@ -11,16 +11,6 @@
             "id": "c08f69e9b516afc3",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Polverini/2.MPLS/MPLS.pdf"
-              }
-            }
-          },
-          {
-            "id": "29452132a5fcd716",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
                 "file": "Glossary Network Infrastructures.md",
@@ -95,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Polverini/2.MPLS/MPLS.pdf",
+                "file": "Glossary Network Infrastructures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Polverini/2.MPLS/MPLS.pdf",
+                "file": "Glossary Network Infrastructures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Polverini/2.MPLS/MPLS.pdf"
+                "file": "Glossary Network Infrastructures.md"
               }
             }
           },
@@ -166,8 +156,8 @@
   },
   "active": "c08f69e9b516afc3",
   "lastOpenFiles": [
-    "Glossary Network Infrastructures.md",
     "Polverini/2.MPLS/MPLS.pdf",
+    "Glossary Network Infrastructures.md",
     "Polverini/4.Segment_Routing/SR.pdf",
     "images/Pasted image 20240126122313.png",
     "images/Pasted image 20240126122235.png",
