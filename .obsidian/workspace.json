@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cuomo/4. Wireless Infrastructures.md",
+                "file": "Polverini/1.Optical Network/Optical Network.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cuomo/4. Wireless Infrastructures.md",
+                "file": "Polverini/1.Optical Network/Optical Network.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cuomo/4. Wireless Infrastructures.md",
+                "file": "Polverini/1.Optical Network/Optical Network.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cuomo/4. Wireless Infrastructures.md"
+                "file": "Polverini/1.Optical Network/Optical Network.md"
               }
             }
           },
@@ -157,6 +157,7 @@
   },
   "active": "b935e4417f7764c6",
   "lastOpenFiles": [
+    "Cuomo/4. Wireless Infrastructures.md",
     "Cuomo/slides/Access Neworks/04_Wireless_infrastructures.pdf",
     "Cuomo/slides/Access Neworks/03_Infrastructures_PON.pdf",
     "Cuomo/2. xDSL Technologies.md",
@@ -173,7 +174,6 @@
     "images/Pasted image 20240126095614.png",
     "images/Pasted image 20240126094756.png",
     "images/Pasted image 20240126094356.png",
-    "Cuomo/4. Wireless Infrastructures.md",
     "images/Pasted image 20240125154036.png",
     "images/Pasted image 20240125153538.png",
     "images/Pasted image 20240125153128.png",
