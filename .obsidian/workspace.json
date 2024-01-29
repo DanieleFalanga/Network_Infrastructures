@@ -33,9 +33,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0f83b3dadd2174a5",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Polverini/slides/Optical_Networks_23_24.pdf"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -101,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Polverini/1.Optical Network/Optical Network.md",
+                "file": "Polverini/slides/Optical_Networks_23_24.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Polverini/1.Optical Network/Optical Network.md",
+                "file": "Polverini/slides/Optical_Networks_23_24.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Polverini/1.Optical Network/Optical Network.md"
+                "file": "Polverini/slides/Optical_Networks_23_24.pdf"
               }
             }
           },
@@ -172,12 +182,12 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "a2e74f3a7f391b49",
+  "active": "0f83b3dadd2174a5",
   "lastOpenFiles": [
+    "Polverini/1.Optical Network/Optical Network.md",
     "Glossary Network Infrastructures.md",
     "Untitled.canvas",
     "conflict-files-obsidian-git.md",
-    "Polverini/1.Optical Network/Optical Network.md",
     "Polverini/2.MPLS/MPLS.pdf",
     "Cuomo/2. xDSL Technologies.md",
     "images/Pasted image 20240126122313.png",
