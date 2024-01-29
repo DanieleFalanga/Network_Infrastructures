@@ -1,12 +1,15 @@
 {
 	"nodes":[
-		{"id":"3cadd6381af9253d","x":-125,"y":-30,"width":250,"height":60,"type":"text","text":"Components of Optical Networks"},
-		{"id":"0f901f29c3680494","x":-125,"y":-180,"width":250,"height":80,"type":"text","text":"OLT\n**Bulk of the cost OTN**"},
-		{"id":"ee4bf77b27d228d5","x":-125,"y":148,"width":250,"height":60,"type":"text","text":"OADMS"},
-		{"id":"0a5f674b3008db96","x":260,"y":-30,"width":250,"height":60,"type":"text","text":"OXC"},
-		{"id":"8dce26013a6a0392","x":-369,"y":-376,"width":250,"height":60,"type":"text","text":"Transponder (O/E/O)"},
-		{"id":"35a27f981f053d3c","x":200,"y":-376,"width":250,"height":60,"type":"text","text":"Optical Amplifiers"},
-		{"id":"f300ff1fcfee1d49","x":-100,"y":-376,"width":250,"height":60,"type":"text","text":"Wavelentghs Multiplexer"}
+		{"id":"3cadd6381af9253d","type":"text","text":"Components of Optical Networks","x":-125,"y":-30,"width":250,"height":60},
+		{"id":"0f901f29c3680494","type":"text","text":"OLT\n**Bulk of the cost OTN**","x":-125,"y":-180,"width":250,"height":80},
+		{"id":"ee4bf77b27d228d5","type":"text","text":"OADMS","x":-125,"y":148,"width":250,"height":60},
+		{"id":"0a5f674b3008db96","type":"text","text":"OXC","x":260,"y":-30,"width":250,"height":60},
+		{"id":"8dce26013a6a0392","type":"text","text":"Transponder (O/E/O)","x":-369,"y":-376,"width":250,"height":60},
+		{"id":"35a27f981f053d3c","type":"text","text":"Optical Amplifiers","x":200,"y":-376,"width":250,"height":60},
+		{"id":"f300ff1fcfee1d49","type":"text","text":"Wavelentghs Multiplexer","x":-100,"y":-376,"width":250,"height":60},
+		{"id":"34da19158d7808e8","x":-445,"y":400,"width":250,"height":30,"color":"3","type":"text","text":"Optical Networks"},
+		{"id":"9370fa78b9e903ab","x":-640,"y":520,"width":250,"height":60,"type":"text","text":"First generation\nPON"},
+		{"id":"1b05e31af06acba1","x":-260,"y":520,"width":250,"height":60,"type":"text","text":"Second Generation\nWDM-PON"}
 	],
 	"edges":[
 		{"id":"6d4632c8af914acf","fromNode":"3cadd6381af9253d","fromSide":"bottom","toNode":"ee4bf77b27d228d5","toSide":"top"},
@@ -14,6 +17,8 @@
 		{"id":"7763338228981aac","fromNode":"3cadd6381af9253d","fromSide":"right","toNode":"0a5f674b3008db96","toSide":"left"},
 		{"id":"f49ed8aaed489a4d","fromNode":"0f901f29c3680494","fromSide":"top","toNode":"8dce26013a6a0392","toSide":"bottom"},
 		{"id":"9ed6e580c78a74ca","fromNode":"0f901f29c3680494","fromSide":"top","toNode":"f300ff1fcfee1d49","toSide":"bottom","label":"Composed by"},
-		{"id":"d3ca2fc1214bd272","fromNode":"0f901f29c3680494","fromSide":"top","toNode":"35a27f981f053d3c","toSide":"bottom"}
+		{"id":"d3ca2fc1214bd272","fromNode":"0f901f29c3680494","fromSide":"top","toNode":"35a27f981f053d3c","toSide":"bottom"},
+		{"id":"67915c6a2c6337f4","fromNode":"34da19158d7808e8","fromSide":"bottom","toNode":"9370fa78b9e903ab","toSide":"top","toEnd":"none"},
+		{"id":"c829b432cfd7591f","fromNode":"34da19158d7808e8","fromSide":"bottom","toNode":"1b05e31af06acba1","toSide":"top","toEnd":"none"}
 	]
 }

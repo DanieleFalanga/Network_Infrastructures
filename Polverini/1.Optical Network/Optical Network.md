@@ -1,5 +1,5 @@
-Optical Network connects users with optical fiber cables. 
-First generation of optical networks are called Passive optical Network because it is composed by passive component like passive splitter. 
+<mark style="background: #FF5582A6;">Optical</mark> Network connects users with optical fiber cables. 
+First generation of optical networks are called Passive optical Network <mark class="hltr-orange">because</mark> it is composed by passive component like passive splitter. 
 
 Another big difference between first generations of optical network is that the routing, switching and other intelligent function are handled by electronics. 
 
