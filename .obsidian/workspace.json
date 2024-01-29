@@ -4,33 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "7ed1083ec04af153",
+        "id": "afc26dc67fe56830",
         "type": "tabs",
         "children": [
           {
-            "id": "c08f69e9b516afc3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cuomo/2. xDSL Technologies.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8efa2760c12cee77",
+            "id": "b935e4417f7764c6",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Cuomo/slides/Access Neworks/02_XDSL_Techcologies.pdf"
+                "file": "Cuomo/slides/Access Neworks/03_Infrastructures_PON.pdf"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cuomo/slides/Access Neworks/02_XDSL_Techcologies.pdf",
+                "file": "Cuomo/slides/Access Neworks/03_Infrastructures_PON.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cuomo/slides/Access Neworks/02_XDSL_Techcologies.pdf",
+                "file": "Cuomo/slides/Access Neworks/03_Infrastructures_PON.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cuomo/slides/Access Neworks/02_XDSL_Techcologies.pdf"
+                "file": "Cuomo/slides/Access Neworks/03_Infrastructures_PON.pdf"
               }
             }
           },
@@ -166,11 +153,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8efa2760c12cee77",
+  "active": "b935e4417f7764c6",
   "lastOpenFiles": [
-    "Cuomo/slides/Access Neworks/03_Infrastructures_PON.pdf",
-    "Cuomo/slides/Access Neworks/02_XDSL_Techcologies.pdf",
     "Cuomo/2. xDSL Technologies.md",
+    "Cuomo/slides/Access Neworks/02_XDSL_Techcologies.pdf",
+    "Cuomo/slides/Access Neworks/03_Infrastructures_PON.pdf",
     "Cuomo/1. Infrastructures Functional Areas.md",
     "Polverini/4.Segment_Routing/SR.pdf",
     "Polverini/2.MPLS/MPLS.pdf",
