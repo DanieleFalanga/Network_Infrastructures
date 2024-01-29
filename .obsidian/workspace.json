@@ -40,12 +40,22 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Polverini/slides/Optical_Networks_23_24.pdf"
+                "file": "Polverini/4.Segment_Routing/SR.pdf"
+              }
+            }
+          },
+          {
+            "id": "86bba93e28beded4",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Polverini/4.Segment_Routing/SR.pdf"
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -111,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Polverini/slides/Optical_Networks_23_24.pdf",
+                "file": "Polverini/4.Segment_Routing/SR.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Polverini/slides/Optical_Networks_23_24.pdf",
+                "file": "Polverini/4.Segment_Routing/SR.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Polverini/slides/Optical_Networks_23_24.pdf"
+                "file": "Polverini/4.Segment_Routing/SR.pdf"
               }
             }
           },
@@ -182,23 +192,23 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "0f83b3dadd2174a5",
+  "active": "86bba93e28beded4",
   "lastOpenFiles": [
+    "Polverini/2.MPLS/MPLS.pdf",
+    "Polverini/4.Segment_Routing/SR.pdf",
+    "Polverini/slides/Optical_Networks_23_24.pdf",
     "Polverini/1.Optical Network/Optical Network.md",
     "Glossary Network Infrastructures.md",
     "Untitled.canvas",
     "conflict-files-obsidian-git.md",
-    "Polverini/2.MPLS/MPLS.pdf",
     "Cuomo/2. xDSL Technologies.md",
     "images/Pasted image 20240126122313.png",
     "images/Pasted image 20240126122235.png",
-    "Polverini/slides/Optical_Networks_23_24.pdf",
     "images/Pasted image 20240126101152.png",
     "images/Pasted image 20240126100639.png",
     "images/Pasted image 20240126095614.png",
     "images/Pasted image 20240126094756.png",
     "images/Pasted image 20240126094356.png",
-    "Polverini/4.Segment_Routing/SR.pdf",
     "Polverini/1.Optical Network",
     "Polverini/Optical_Networks_23_24.pdf",
     "Polverini/slides",
