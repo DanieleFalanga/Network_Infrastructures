@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8efa2760c12cee77",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Cuomo/slides/Access Neworks/02_XDSL_Techcologies.pdf"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cuomo/2. xDSL Technologies.md",
+                "file": "Cuomo/slides/Access Neworks/02_XDSL_Techcologies.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cuomo/2. xDSL Technologies.md",
+                "file": "Cuomo/slides/Access Neworks/02_XDSL_Techcologies.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cuomo/2. xDSL Technologies.md"
+                "file": "Cuomo/slides/Access Neworks/02_XDSL_Techcologies.pdf"
               }
             }
           },
@@ -155,8 +166,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "275b21e99690f65b",
+  "active": "8efa2760c12cee77",
   "lastOpenFiles": [
+    "Cuomo/slides/Access Neworks/03_Infrastructures_PON.pdf",
+    "Cuomo/slides/Access Neworks/02_XDSL_Techcologies.pdf",
+    "Cuomo/2. xDSL Technologies.md",
     "Cuomo/1. Infrastructures Functional Areas.md",
     "Polverini/4.Segment_Routing/SR.pdf",
     "Polverini/2.MPLS/MPLS.pdf",
@@ -173,10 +187,7 @@
     "images/Pasted image 20240125154036.png",
     "images/Pasted image 20240125153538.png",
     "images/Pasted image 20240125153128.png",
-    "Cuomo/slides/Access Neworks/03_Infrastructures_PON.pdf",
     "Cuomo/slides/Access Neworks/04_Wireless_infrastructures.pdf",
-    "Cuomo/2. xDSL Technologies.md",
-    "Cuomo/slides/Access Neworks/02_XDSL_Techcologies.pdf",
     "Cuomo/slides/Access Neworks/01_Infrastructures_Functional_Areas.pdf",
     "images",
     "Cuomo/slides/Access Neworks",
