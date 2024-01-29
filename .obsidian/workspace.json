@@ -11,9 +11,11 @@
             "id": "b935e4417f7764c6",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Cuomo/slides/Access Neworks/04_Wireless_infrastructures.pdf"
+                "file": "Cuomo/4. Wireless Infrastructures.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cuomo/slides/Access Neworks/04_Wireless_infrastructures.pdf",
+                "file": "Cuomo/4. Wireless Infrastructures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cuomo/slides/Access Neworks/04_Wireless_infrastructures.pdf",
+                "file": "Cuomo/4. Wireless Infrastructures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cuomo/slides/Access Neworks/04_Wireless_infrastructures.pdf"
+                "file": "Cuomo/4. Wireless Infrastructures.md"
               }
             }
           },
@@ -155,6 +157,7 @@
   },
   "active": "b935e4417f7764c6",
   "lastOpenFiles": [
+    "Cuomo/slides/Access Neworks/04_Wireless_infrastructures.pdf",
     "Cuomo/slides/Access Neworks/03_Infrastructures_PON.pdf",
     "Cuomo/2. xDSL Technologies.md",
     "Cuomo/slides/Access Neworks/02_XDSL_Techcologies.pdf",
@@ -174,7 +177,6 @@
     "images/Pasted image 20240125154036.png",
     "images/Pasted image 20240125153538.png",
     "images/Pasted image 20240125153128.png",
-    "Cuomo/slides/Access Neworks/04_Wireless_infrastructures.pdf",
     "Cuomo/slides/Access Neworks/01_Infrastructures_Functional_Areas.pdf",
     "images",
     "Cuomo/slides/Access Neworks",
