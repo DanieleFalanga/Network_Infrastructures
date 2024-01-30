@@ -64,14 +64,14 @@ It provides several key functions in a large network:
 
 Electronics plays a crucial role in performing the intelligent control and management functions. It is required at the **edge of the network** in order to adapt the signal entering in the optical domain and in the **core network** in order to **regenerate** the signal and perform wavelength conversion. 
 
-There are three types of eletronic regeneration: 
+There are three types of elettronic regeneration: 
 ▶ 1R: regeneration (can be seen as an Optical Amplifier) 
 	PRO: supports analog signals 
 	CONS: poor performance 
 ▶ 2R - regeneration with reshaping 
 	PRO: offers transparency to bit rates 
 	CONS: limits the number of regeneration steps allowed due to the accumulated jitter 
-▶ 3R - regeneration with retiming and reshaping 
+▶ 3R - regeneration with re-timing and reshaping 
 	PRO: produces a “fresh” copy of the signal 
 	CONS: it eliminates transparency to bit rates and the framing protocols
 
@@ -81,9 +81,9 @@ There are three types of eletronic regeneration:
 
 Most functions of the network are implemented in a centralized manner by a hierarchy of management systems. 
 
-Due to latency, some management functions are performed in a decentralized manner like: responding to failures and setting up/taking down connetions)
+Due to latency, some management functions are performed in a decentralized manner like: responding to failures and setting up/taking down connections)
 
-During lightpath setup client layers can specify to the optical layer the following services: 
+During light-path setup client layers can specify to the optical layer the following services: 
 - The endpoints to interconnect
 - The amount of bandwidth that is required 
 - It can specify if an adaption function is needed
@@ -96,7 +96,7 @@ Is useful to subdivide the optical layer into several sublayers:
 
 ![[Pasted image 20240126122235.png]]
 - **Optical Channel layer (OCh):** Takes care of end to end routing of the lightpaths
-- **Optical multiplex Section Layer (OMS):** Each link between OLTs ot OADMs represents an optical multiplex section carrying multiple wavelenghts. 
+- **Optical multiplex Section Layer (OMS):** Each link between OLTs or OADMs represents an optical multiplex section carrying multiple wavelenghts. 
 - **Optical transimission Sections layer (OTS):** Link between two optical amplifier stages
 --- 
 - **Optical channel transport unit (OTU):** 
@@ -105,7 +105,7 @@ Is useful to subdivide the optical layer into several sublayers:
 	- carry alarms indicators to signal failures
 	- provide communication channel between the end points of the optical connection
 - **Optical channel data unit (ODU):** 
-	- as OTU but at higer layer
+	- as OTU but at higher layer
 	- includes the Optical channel Payload Unit (OPU) sublayer that adapts client signal to the OTN frames
 
 Each of this component adds overhead to the packet

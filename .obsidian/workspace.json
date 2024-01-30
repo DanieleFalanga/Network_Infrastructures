@@ -40,7 +40,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Cuomo/slides/Access Neworks/04_Wireless_infrastructures.pdf"
+                "file": "Polverini/2.MPLS/MPLS.pdf"
               }
             }
           }
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cuomo/slides/Access Neworks/04_Wireless_infrastructures.pdf",
+                "file": "Polverini/2.MPLS/MPLS.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cuomo/slides/Access Neworks/04_Wireless_infrastructures.pdf",
+                "file": "Polverini/2.MPLS/MPLS.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cuomo/slides/Access Neworks/04_Wireless_infrastructures.pdf"
+                "file": "Polverini/2.MPLS/MPLS.pdf"
               }
             }
           },
@@ -185,6 +185,8 @@
   "active": "0f83b3dadd2174a5",
   "lastOpenFiles": [
     "Polverini/1.Optical Network/Optical Network.md",
+    "Cuomo/4. Wireless Infrastructures.md",
+    "Cuomo/2. xDSL Technologies.md",
     "Cuomo/slides/Access Neworks/04_Wireless_infrastructures.pdf",
     "Polverini/4.Segment_Routing/SR.pdf",
     "Polverini/2.MPLS/MPLS.pdf",
@@ -192,7 +194,6 @@
     "Glossary Network Infrastructures.md",
     "Untitled.canvas",
     "conflict-files-obsidian-git.md",
-    "Cuomo/2. xDSL Technologies.md",
     "images/Pasted image 20240126122313.png",
     "images/Pasted image 20240126122235.png",
     "images/Pasted image 20240126101152.png",
@@ -206,7 +207,6 @@
     "images/Pasted image 20240125154036.png",
     "images/Pasted image 20240125153538.png",
     "images/Pasted image 20240125153128.png",
-    "Cuomo/4. Wireless Infrastructures.md",
     "Cuomo/slides/Access Neworks/02_XDSL_Techcologies.pdf",
     "Cuomo/1. Infrastructures Functional Areas.md",
     "Cuomo/slides/Access Neworks/01_Infrastructures_Functional_Areas.pdf",
